@@ -1,0 +1,39 @@
+@media screen and (max-width: 767.99px){
+    .main{
+        height: auto;
+    }
+    .profile{
+        height: auto;
+        border-right: 0px;
+        padding: 0px 15px;
+        margin-bottom: 30px;
+    }
+    .info{
+        &__title{
+            text-align: center;
+            margin-bottom: 20px;
+            border-top: 2px solid #000;
+            padding-top: 20px;
+            border-bottom: 0px;
+            padding-bottom: 0;
+        }
+        &__about{
+            margin-bottom: 23px;
+        }
+        .about{
+            &__item{
+                max-width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+        &__charact{
+            margin-bottom: 20px;
+        }
+        .charact__item{
+            max-width: 45%;
+        }
+        &__change{
+            text-align: center;
+        }
+    }
+}

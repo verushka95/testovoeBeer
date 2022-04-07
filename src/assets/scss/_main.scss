@@ -1,0 +1,23 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: $greyColor;
+    margin-bottom: 10px;
+}
+.btn{
+    border-radius: 7px;
+    background-color: $mainColor;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    max-width: 100%;
+    width: fit-content;
+    cursor: pointer;
+}
