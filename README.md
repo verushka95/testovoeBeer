@@ -20,5 +20,6 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Пример web-приложения на основе приходящих из API данных.
+В кабинете мы видим свой профиль (фото, имя, количество полных лет, должность) и рекомендованное пиво. 
+Сборка на vue-cli.
